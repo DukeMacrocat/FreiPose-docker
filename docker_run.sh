@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-DOCKER_CMD='docker run --runtime=nvidia';
+DOCKER_CMD='docker run --gpus all';
 
 ## Setup X authority such that the container knows how to do graphical stuff
 XSOCK="/tmp/.X11-unix";
